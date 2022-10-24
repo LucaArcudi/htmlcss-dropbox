@@ -3,3 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+/* Header */
+header{
+    height: 5.5rem;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.logo{
+    margin-left: 1vw;
+}
+
+header li{
+    margin: 0 2vw;
+    list-style: none;
+}
