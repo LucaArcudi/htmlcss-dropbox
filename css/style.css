@@ -28,20 +28,20 @@ header li{
 
 /* Main */
 section.main-top-section{
-    padding: 10vh 20vw;
+    padding: 10vh 15vw 0;
     background-color: bisque;
 }
 
-h1{
+section.main-top-section h1{
     background-color: aquamarine;
     height: 10rem;
 }
 
 div.flex{
-    height: 20rem;
+    height: 30rem;
 }
 
-div.container{
+section.main-top-section div.container{
     flex-basis: 30%;
     background-color: blue;
 }
@@ -50,3 +50,34 @@ div img{
     flex-basis: 70%;
     background-color: yellow;
 }
+
+section.sub-option{
+    padding: 20vh 20vw 0;
+    background-color: blueviolet;
+}
+
+section.sub-option h1{
+    height: 5rem;
+    background-color: aquamarine;
+    margin-bottom: 3rem;
+}
+
+div.columns{
+    margin-top: 3rem;
+    justify-content: space-between;
+    background-color: violet;
+    height: 85vh;
+}
+
+div.column{
+    width: calc(100% / 3 - 2rem);
+    background-color: yellow;
+}
+
+section.sub-option div.container{
+    height: 15rem;
+    background-color: turquoise;
+    margin-top: 2rem;
+}
+
+
