@@ -17,7 +17,7 @@ header{
     flex-wrap: wrap
 }
 
-.logo{
+.main-logo{
     margin-left: 1vw;
 }
 
@@ -26,34 +26,35 @@ header li{
     list-style: none;
 }
 
-/* Main */
-section.main-top-section{
+/* FREE TRIAL */
+section.free-trial{
     padding: 10vh 15vw 0;
-    background-color: bisque;
+    background-color: rgb(217, 196, 255);
 }
 
-section.main-top-section h1{
+section.free-trial h1{
     background-color: aquamarine;
     height: 10rem;
 }
 
-div.flex{
+section.free-trial div.flex{
     height: 30rem;
 }
 
-section.main-top-section div.container{
+section.free-trial div.container{
     flex-basis: 30%;
     background-color: blue;
 }
 
-div img{
+section.free-trial img{
     flex-basis: 70%;
     background-color: yellow;
 }
 
-section.sub-option{
+/* SUB OPTIONS */
+section.main-section{
     padding: 20vh 20vw 0;
-    background-color: blueviolet;
+    background-color: rgb(217, 196, 255);
 }
 
 section.sub-option h1{
@@ -62,14 +63,14 @@ section.sub-option h1{
     margin-bottom: 3rem;
 }
 
-div.columns{
+div.options{
     margin-top: 3rem;
     justify-content: space-between;
     background-color: violet;
     height: 85vh;
 }
 
-div.column{
+div.option{
     width: calc(100% / 3 - 2rem);
     background-color: yellow;
 }
@@ -80,4 +81,90 @@ section.sub-option div.container{
     margin-top: 2rem;
 }
 
+/* DROP PARTNERS */
+section.drop-partners{
+    height: 40rem;
+}
 
+section.drop-partners img{
+    flex-basis: 60%;
+    background-color: yellow;
+}
+
+section.drop-partners div.container{
+    flex-basis: 40%;
+    background-color: blue;
+}
+
+/* DROP FUNCTIONS */
+section.drop-functions h1{
+    background-color: burlywood;
+    height: 5rem;
+}
+
+section.drop-functions div.functions{
+    height: 95vh;
+    background-color: tomato;
+    flex-wrap: wrap;
+}
+
+section.drop-functions div.function{
+    flex-basis: calc(100% / 3 - 4rem);
+    margin: 2rem;
+    background-color: teal
+}
+
+/* OUR CLIENT */
+section.our-clients h1{
+    height: 5rem;
+    background-color: yellowgreen;
+}
+
+section.our-clients a{
+    height: 3rem;
+    background-color: steelblue;
+    display: block;
+}
+
+/* ABOUT US */
+section.about-us{
+    padding-top: 20vh;
+    background-color:  rgb(217, 196, 255);
+}
+section.about-us div.logos{
+    flex-basis: calc(100% / 3);
+    height: 40rem;
+    background-color: slateblue;
+    flex-wrap: wrap;
+}
+
+section.about-us div.logo{
+    flex-basis: 50%;
+    height: 20rem;
+    background-color: rgb(139, 101, 139);
+}
+
+/* FREE TRIAL REMINDER */
+section.free-trial-reminder{
+    height: 30rem;
+}
+
+section.free-trial-reminder h1{
+    flex-basis: 70%;
+    background-color: antiquewhite;
+}
+
+section.free-trial-reminder button{
+    flex-basis: 30%;
+    background-color: rgb(255, 153, 0);
+}
+
+/* FAQ */
+
+button h2{
+    margin: 2rem 0;
+}
+
+button{
+    border: none;
+}
