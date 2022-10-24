@@ -25,3 +25,28 @@ header li{
     margin: 0 2vw;
     list-style: none;
 }
+
+/* Main */
+section.main-top-section{
+    padding: 10vh 20vw;
+    background-color: bisque;
+}
+
+h1{
+    background-color: aquamarine;
+    height: 10rem;
+}
+
+div.flex{
+    height: 20rem;
+}
+
+div.container{
+    flex-basis: 30%;
+    background-color: blue;
+}
+
+div img{
+    flex-basis: 70%;
+    background-color: yellow;
+}
