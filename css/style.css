@@ -52,9 +52,9 @@ section.free-trial img{
 }
 
 /* SUB OPTIONS */
-section.main-section{
+.padding{
     padding: 20vh 20vw 0;
-    background-color: rgb(217, 196, 255);
+    background-color: rgb(89, 0, 255);
 }
 
 section.sub-option h1{
@@ -114,7 +114,7 @@ section.drop-functions div.function{
     background-color: teal
 }
 
-/* OUR CLIENT */
+/* OUR CLIENTS */
 section.our-clients h1{
     height: 5rem;
     background-color: yellowgreen;
@@ -126,19 +126,14 @@ section.our-clients a{
     display: block;
 }
 
-/* ABOUT US */
-section.about-us{
-    padding-top: 20vh;
-    background-color:  rgb(217, 196, 255);
-}
-section.about-us div.logos{
+div.about-us div.logos{
     flex-basis: calc(100% / 3);
     height: 40rem;
     background-color: slateblue;
     flex-wrap: wrap;
 }
 
-section.about-us div.logo{
+div.about-us div.logo{
     flex-basis: 50%;
     height: 20rem;
     background-color: rgb(139, 101, 139);
@@ -160,11 +155,41 @@ section.free-trial-reminder button{
 }
 
 /* FAQ */
-
-button h2{
-    margin: 2rem 0;
+section.faq button h2{
+    padding: 2rem 20.9rem 2rem 0;
 }
 
-button{
+section.faq button{
     border: none;
+}
+
+/* FOOTER */
+footer{
+    height: 38rem;
+    padding: 10vh 15vw 0;
+    background-color: #000000;
+}
+
+section.footer-top{
+    height: 24rem;
+    color: white;
+}
+
+section.footer-top div.container{
+    flex-basis: calc(100% / 5);
+    background-color: rgb(58, 58, 58);
+}
+
+footer li{
+    list-style: none;
+}
+
+footer div.separator{
+    height: 1px;
+    width: 7rem;
+    background-color: white;
+}
+
+footer select{
+    margin-top: 3rem;
 }
