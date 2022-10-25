@@ -49,7 +49,6 @@ header li{
 
 .padding{
     padding: 20vh 20vw 0;
-    background-color: rgb(89, 0, 255);
 }
 
 /* JUMBO */
@@ -90,28 +89,112 @@ section.jumbo img{
 }
 
 /* SUB OPTIONS */
+.padding-option{
+    padding: 3rem 1.5rem;
+}
+
 section.sub-option h1{
-    height: 5rem;
-    background-color: aquamarine;
+    font-size: 2.5rem;
     margin-bottom: 3rem;
 }
 
 div.options{
     margin-top: 3rem;
     justify-content: space-between;
-    background-color: violet;
-    height: 85vh;
 }
 
 div.option{
     width: calc(100% / 3 - 2rem);
-    background-color: yellow;
+    border: 1px gray solid;
 }
 
-section.sub-option div.container{
-    height: 15rem;
-    background-color: turquoise;
+div.option h2{
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+div.option h3{
+    font-size: 2rem;
+}
+
+div.option span{
+    display: block;
+}
+
+div.option span.plan-billing{
+    color: gray;
+}
+
+div.option span.plan-billing,
+div.option span.plan-price{
+    margin-top: 0.5rem;
+}
+
+div.padding-option ul{
+    margin-top: 3rem;
+    list-style: none;
+}
+
+div.padding-option ul li{
+    margin-top: 1rem;
+}
+
+div.padding-option button{
+    margin: 3rem 0;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+div.separator{
+    margin: 4rem 0;
+    height: 1px;
+    width: 7rem;
+    background-color: rgb(173, 173, 173);
+}
+
+div.padding-option ul:last-child li::before{
+    content: "\2713";
+    color: #0061FF;
+}
+
+div.option-fw{
+    border: 1px gray solid;
     margin-top: 2rem;
+}
+
+
+div.option-fw h2{
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+div.padding-option-fw{
+    padding: 1.5rem;
+    position: relative;
+}
+
+div.padding-option-fw h3{
+    margin-bottom: 2rem;
+}
+
+div.padding-option-fw p{
+    margin-top: 3rem;
+}
+
+div.padding-option-fw button{
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 15%;
+    right: 3%;
 }
 
 /* DROP PARTNERS */
