@@ -8,17 +8,36 @@
     display: flex;
 }
 
-/* Header */
+/* ----------HEADER---------- */
+
 header{
     height: 5.5rem;
-    background-color: aqua;
+    background-color:#FFFFFF;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+header ul{
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header button{
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
 }
 
 .main-logo{
-    margin-left: 1vw;
+    margin-left: 1.5rem;
 }
 
 header li{
@@ -26,37 +45,51 @@ header li{
     list-style: none;
 }
 
-/* FREE TRIAL */
-section.free-trial{
-    padding: 10vh 15vw 0;
-    background-color: rgb(217, 196, 255);
-}
+/* ----------MAIN---------- */
 
-section.free-trial h1{
-    background-color: aquamarine;
-    height: 10rem;
-}
-
-section.free-trial div.flex{
-    height: 30rem;
-}
-
-section.free-trial div.container{
-    flex-basis: 30%;
-    background-color: blue;
-}
-
-section.free-trial img{
-    flex-basis: 70%;
-    background-color: yellow;
-}
-
-/* SUB OPTIONS */
 .padding{
     padding: 20vh 20vw 0;
     background-color: rgb(89, 0, 255);
 }
 
+/* JUMBO */
+section.jumbo{
+    padding: 10vh 15vw 0;
+    background-color:#B4D0E7;
+}
+
+section.jumbo h1{
+    font-size: 7rem;
+    margin-bottom: 5rem;
+}
+
+section.jumbo div.flex{
+    height: 30rem;
+}
+
+section.jumbo div.container{
+    flex-basis: 30%;
+    font-size: 1.3rem;
+}
+
+section.jumbo div.container button{
+    margin: 3rem 0;
+    background-color: #0061FF;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+section.jumbo div.container span{
+    display: block;
+}
+
+section.jumbo img{
+    flex-basis: 70%;
+    height: 60vh;
+}
+
+/* SUB OPTIONS */
 section.sub-option h1{
     height: 5rem;
     background-color: aquamarine;
@@ -139,17 +172,17 @@ div.about-us div.logo{
     background-color: rgb(139, 101, 139);
 }
 
-/* FREE TRIAL REMINDER */
-section.free-trial-reminder{
+/* FREE TRIAL */
+section.free-trial{
     height: 30rem;
 }
 
-section.free-trial-reminder h1{
+section.free-trial h1{
     flex-basis: 70%;
     background-color: antiquewhite;
 }
 
-section.free-trial-reminder button{
+section.free-trial button{
     flex-basis: 30%;
     background-color: rgb(255, 153, 0);
 }
@@ -163,7 +196,8 @@ section.faq button{
     border: none;
 }
 
-/* FOOTER */
+/* ----------FOOTER---------- */
+
 footer{
     height: 38rem;
     padding: 10vh 15vw 0;
