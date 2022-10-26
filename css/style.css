@@ -198,19 +198,28 @@ div.padding-option-fw button{
 }
 
 /* DROP PARTNERS */
-section.drop-partners{
-    height: 40rem;
-}
-
 section.drop-partners img{
-    flex-basis: 60%;
-    background-color: yellow;
+    flex-basis: 55%;
+    height: 35rem;
 }
 
 section.drop-partners div.container{
-    flex-basis: 40%;
-    background-color: blue;
+    flex-basis: 45%;
+    padding: 4rem 3rem 0;
 }
+
+section.drop-partners div.container p{
+    margin: 3rem 0;
+    font-size: 1.2rem;
+}
+
+section.drop-partners div.container button{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
 
 /* DROP FUNCTIONS */
 section.drop-functions h1{
