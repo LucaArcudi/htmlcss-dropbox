@@ -223,22 +223,26 @@ section.drop-partners div.container button{
 
 /* DROP FUNCTIONS */
 section.drop-functions h1{
-    background-color: burlywood;
-    height: 5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 section.drop-functions div.functions{
-    height: 95vh;
-    background-color: tomato;
     flex-wrap: wrap;
 }
 
 section.drop-functions div.function{
     flex-basis: calc(100% / 3 - 4rem);
     margin: 2rem;
-    background-color: teal
 }
 
+section.drop-functions div.function img{
+    width: 100%;
+}
+
+section.drop-functions div.function h2{
+    margin-bottom: 2rem;
+}
 /* OUR CLIENTS */
 section.our-clients h1{
     height: 5rem;
