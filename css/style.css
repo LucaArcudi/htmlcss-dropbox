@@ -380,31 +380,42 @@ section.faq button{
 /* ----------FOOTER---------- */
 
 footer{
-    height: 38rem;
     padding: 10vh 15vw 0;
     background-color: #000000;
 }
 
 section.footer-top{
-    height: 24rem;
     color: white;
 }
 
 section.footer-top div.container{
     flex-basis: calc(100% / 5);
-    background-color: rgb(58, 58, 58);
 }
 
-footer li{
+div.container h1{
+    margin: 2rem 0;
+}
+
+div.container ul{
     list-style: none;
 }
 
-footer div.separator{
-    height: 1px;
-    width: 7rem;
-    background-color: white;
+div.container li{
+    margin-bottom: 1rem;
+}
+
+div.container a{
+    color: white;
+    text-decoration: none;
+}
+
+section.footer-bottom{
+    color: #FFFFFF;
 }
 
 footer select{
-    margin-top: 3rem;
+    margin-bottom: 4rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
 }
