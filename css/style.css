@@ -357,14 +357,24 @@ div.button-container button{
     right: 0;
 }
 
-
 /* FAQ */
+section.faq{
+    margin-bottom: 8rem;
+}
+
+section.faq h1{
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
 section.faq button h2{
     padding: 2rem 20.9rem 2rem 0;
+    font-size: 1rem;
 }
 
 section.faq button{
     border: none;
+    background-color: white;
 }
 
 /* ----------FOOTER---------- */
