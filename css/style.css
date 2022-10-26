@@ -243,16 +243,17 @@ section.drop-functions div.function img{
 section.drop-functions div.function h2{
     margin-bottom: 2rem;
 }
+
 /* OUR CLIENTS */
 section.our-clients h1{
-    height: 5rem;
-    background-color: yellowgreen;
+    font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 section.our-clients a{
     height: 3rem;
-    background-color: steelblue;
     display: block;
+    margin-bottom: 3rem;
 }
 
 div.about-us div.logos{
