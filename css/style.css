@@ -259,15 +259,33 @@ section.our-clients a{
 div.about-us div.logos{
     flex-basis: calc(100% / 3);
     height: 40rem;
-    background-color: slateblue;
     flex-wrap: wrap;
 }
 
 div.about-us div.logo{
     flex-basis: 50%;
     height: 20rem;
-    background-color: rgb(139, 101, 139);
+    position: relative;
 }
+
+div.about-us div.logo img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.designit{
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
+    color: white;
+}
+
+div.designit img{
+    
+}
+
 
 /* FREE TRIAL */
 section.free-trial{
