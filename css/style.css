@@ -47,6 +47,10 @@ header li{
 
 /* ----------MAIN---------- */
 
+main{
+    padding-top: 5.5rem;
+}
+
 .padding{
     padding: 20vh 20vw 0;
 }
@@ -253,7 +257,7 @@ section.our-clients h1{
 section.our-clients a{
     height: 3rem;
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 div.about-us div.logos{
@@ -326,24 +330,33 @@ div.cc{
     background-color: #FFD830;
 }
 
-
-
-
-
 /* FREE TRIAL */
 section.free-trial{
-    height: 30rem;
+    background-color: #B4D0E7;
+    padding: 15vh 20vw 15vh;
 }
 
 section.free-trial h1{
-    flex-basis: 70%;
-    background-color: antiquewhite;
+    flex-basis: 50%;
+    color: #61082B;
+    font-size: 3rem;
 }
 
-section.free-trial button{
-    flex-basis: 30%;
-    background-color: rgb(255, 153, 0);
+section.free-trial div.button-container{
+    flex-basis: 50%;
+    position: relative;
 }
+
+div.button-container button{
+    background-color: white;
+    border: none;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
 
 /* FAQ */
 section.faq button h2{
