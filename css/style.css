@@ -260,6 +260,7 @@ div.about-us div.logos{
     flex-basis: calc(100% / 3);
     height: 40rem;
     flex-wrap: wrap;
+    background-color: #F5F5F5;
 }
 
 div.about-us div.logo{
@@ -276,15 +277,57 @@ div.about-us div.logo img{
     transform: translate(-50%, -50%);
 }
 
+div.logo img{
+    filter: invert(1);
+}
+
 div.designit{
     background-color: #A2D39B;
     border: 1rem solid #D1E9CD;
-    color: white;
 }
 
-div.designit img{
-    
+div.displayer-logo{
+    padding: 3rem;
 }
+
+div.displayer-logo img{
+    width: 50%;
+}
+
+div.displayer-logo p{
+    margin-bottom: 3rem;
+}
+
+div.asu{
+    background-color: #61082B;
+}
+
+div.uof{
+    background-color: #0093CE;
+}
+
+div.topps{
+    background-color: #FF1C1C;
+}
+
+div.wbr{
+    background-color: #D5001F;
+}
+
+div.hc{
+    background-color: #B4D0E7;
+}
+
+div.lp{
+    background-color: #0D2481;
+}
+
+div.cc{
+    background-color: #FFD830;
+}
+
+
+
 
 
 /* FREE TRIAL */
